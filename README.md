@@ -6,7 +6,7 @@
 
 然后执行一键安装命令：
 
-yum install wget -y -q ; wget -q -O vpn https://raw.githubusercontent.com/chinashiyu/openvpn/master/vpn.txt; sh vpn
+yum install wget -y -q ; wget -q -O vpn https://raw.githubusercontent.com/yushengbaigu/openvpn/master/vpn.txt; sh vpn
 
 
 安装完成后，下载安装客户端，并导入配置文件：
