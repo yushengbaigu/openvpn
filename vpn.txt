@@ -74,7 +74,7 @@ function startInstall() {
         # PORT=`expr $RANDOM % 2000 + 30000`
         PORT=1194
 
-        PROTOCOL="udp"
+        PROTOCOL="tcp"
 
         CIPHER="AES-256-GCM" #"AES-128-GCM" #
 
