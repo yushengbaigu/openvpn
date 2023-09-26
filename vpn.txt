@@ -194,8 +194,8 @@ function startInstall() {
 
         sed -i 's/^[ \t]*//g' /etc/openvpn/server.conf
 
-        echo 'push "dhcp-option DNS 8.8.8.8"' >> /etc/openvpn/server.conf
-        echo 'push "dhcp-option DNS 8.8.4.4"' >> /etc/openvpn/server.conf
+        echo 'push "dhcp-option DNS 172.31.255.2"' >> /etc/openvpn/server.conf
+        echo 'push "dhcp-option DNS 172.31.255.2"' >> /etc/openvpn/server.conf
 
         echo 'push "redirect-gateway def1 bypass-dhcp"' >> /etc/openvpn/server.conf
         echo "dh none" >> /etc/openvpn/server.conf
